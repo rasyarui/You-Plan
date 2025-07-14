@@ -1,6 +1,7 @@
+    <link rel="stylesheet" href="/public/css/style.css">
+
 <div>
     
-
     <div class="login">
         <div class="content-login">
             <div class="logo">
