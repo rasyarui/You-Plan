@@ -29,7 +29,7 @@ class History extends Component
     {
       
       
-          // $user_id = Auth::user()->id;
+        //   $user_id = Auth::user()->id;
           $userId = Auth::id();
           $dates = Todo::whereUserId(auth()->user()->id)->selectRaw('id, activity, status, DATE(created_at) as created_at')->orderBy('created_at', 'desc')->get()->groupBy('created_at');
           return view('livewire.history', compact(var_name: 'dates',
