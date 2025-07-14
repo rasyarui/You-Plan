@@ -19,7 +19,7 @@
     </style>
 
 
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <title>{{ $title ?? 'YouPlan' }}</title>
 
