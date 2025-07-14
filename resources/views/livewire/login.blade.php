@@ -14,9 +14,9 @@
             <form wire:submit.prevent="loginUser()">
 
                 <div class="username">
-                    <label for="username">Usernames</label>
+                    <label for="username">Username</label>
                     <input type="text" name="username" id="username" placeholder="Username" wire:model.live="username"
-                        required>
+                        requigit red>
                     @error('username')
                         <span class="error">{{ $message }}</span>
                     @enderror
