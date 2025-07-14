@@ -18,7 +18,15 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://you-plan-app.vercel.app/",
+        "APP_URL": "",
+        "APP_KEY": "base64:8M+CQngMAJt4C1FwiV2ljJZbnvII2ObT0BmRl1sn9bI=",
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "9us-q1.h.filess.io",
+        "DB_PORT": "3307",
+        "DB_DATABASE": "YouPlan_visitorbad",
+        "DB_USERNAME": "YouPlan_visitorbad",
+        "DB_PASSWORD": "2d9b97d9216d769deb1cf3f286f3821baf5dccca",
+
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
