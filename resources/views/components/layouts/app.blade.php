@@ -10,7 +10,6 @@
 
     <script src="https://cdn.ckeditor.com/ckeditor5/36.0.0/classic/ckeditor.js" data-navigate-once></script>
     
-    <link rel="stylesheet" href="{{ asset('/public/css/style.css') }}">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
@@ -20,6 +19,7 @@
     </style>
 
 
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
 
     <title>{{ $title ?? 'YouPlan' }}</title>
