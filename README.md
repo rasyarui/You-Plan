@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 <h1 align="center">You-Plan Aplication</h1>
+
+<p><a href="https://youplan-design.vercel.app" target="_blank">Open Website</a></p>
+
 
 ## Tech
 
@@ -84,4 +86,3 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 <p align="center">Created with 💚 by <a href="https://rasya-design.vercel.app/" target="_blank">RASYA</a></p>
 =======
 # You-Plan
->>>>>>> 975f7a5221bbf22d358d7a66c8df10c11a84fda1
