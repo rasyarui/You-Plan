@@ -27,13 +27,13 @@ return [
     'github' => [
     'client_id' => 'Ov23cts3nzE3Ib6ef3ax',
     'client_secret' => 'd08087dac4d0a788994d26ec6c065edf34443647',
-    'redirect' => 'youplan-design.vercel.app/auth/github/callback',
+    'redirect' => 'https://youplan-design.vercel.app/auth/github/callback',
     ],
 
     'google' => [
         'client_id' => '234402584109-26st435vht2tdu32i6od67mec54jlgcp.apps.googleusercontent.com',
         'client_secret' => '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',
-        'redirect' => 'youplan-design.vercel.app/auth/google/callback',
+        'redirect' => 'https://youplan-design.vercel.app/auth/google/callback',
     ],
 
     'resend' => [
