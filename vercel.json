@@ -11,6 +11,10 @@
             "dest": "/public/img/"
         },
         {
+            "src": "/(css|js)/(.*)",
+            "dest": "/public/$1/$2"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
@@ -26,6 +30,7 @@
         "DB_DATABASE": "YouPlan_visitorbad",
         "DB_USERNAME": "YouPlan_visitorbad",
         "DB_PASSWORD": "2d9b97d9216d769deb1cf3f286f3821baf5dccca",
+
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
