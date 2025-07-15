@@ -16,7 +16,7 @@
             <form wire:submit.prevent="loginUser()">
 
                 <div class="username">
-                    <label for="username">Username</label>
+                    <label for="username">Usernames</label>
                     <input type="text" name="username" id="username" placeholder="Username" wire:model.live="username"
                         requigit red>
                     @error('username')
